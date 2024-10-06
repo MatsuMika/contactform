@@ -1,0 +1,57 @@
+body {
+  font-family: 'Arial','Meiryo UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  color: #2e2e2e;
+  background-color: #fdfbfb;
+}
+h1 {
+  font-size: 20px;
+  width: 519px;
+  padding: 5px 12px;
+  background-color: #ebebee;
+  border-left: solid 5px #f71808;
+  margin-bottom: 20px;
+}
+#contact-form {
+  width: 500px;
+  margin-left: 8px;
+  padding: 12px 13px;
+  border: solid 3px #e7e5e5;
+  border-radius: 8px;
+  background-color: #f8f8fa;
+}
+.form_items {
+  padding-bottom: 25px;
+}
+.form_items select, .text-type {
+  border: solid 2px #e7e5e5;
+}
+.form_items .text-type {
+  padding: 3px;
+}
+.form_items select {
+  font-size: 12px;
+  padding: 5px 2px 2px;
+}
+.form_items select:invalid {
+  color: #b2b2b3;
+}
+.form_items select option:first-child {
+  color: #b2b2b3;
+}
+.button {
+  height: 31px;
+}
+#contact-form .submit {
+  color: #fdfdfd;
+  font-size: 12px;
+  padding: 5px 10px 5px;
+  border: none;
+  background-color: #bebec2;
+  border-bottom: 3px solid #7a7a7c;
+  border-radius: 5px;
+}
+#contact-form .submit:hover {
+  margin-top: 2px;
+  background-color: #a8a8aa;
+  border-bottom: 1px solid #7a7a7c;
+}

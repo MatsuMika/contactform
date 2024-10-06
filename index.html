@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お問合わせフォーム</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <h1>お問合わせフォーム</h1>
+    <form id="contact-form" method="post" action="mail_confirm.php">
+      <div class="form_items">
+        <label>名前</label><br>
+        <input type="text" class="text-type" size="35" name="name">
+      </div>
+      <div class="form_items">
+        <label>メールアドレス</label><br>
+        <input type="email" class="text-type" size="35" name="mail">
+      </div>
+      <div class="form_items">
+        <label>年齢</label><br>
+        <select id="select-age" name="age" required>
+          <option value="" selected hidden>選択してください</option>
+        </select>
+      </div>
+      <div class="form_items">
+        <label>コメント</label><br>
+        <textarea class="text-type" cols="35" rows="5" name="comments"></textarea>
+      </div>
+      <div class="button">
+        <input type="submit" class="submit" value="送信する">
+      </div>
+    </form>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
